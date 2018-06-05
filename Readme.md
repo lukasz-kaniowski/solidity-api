@@ -524,6 +524,11 @@ Response
 }
 ```
 
+## Build
+
+    $ yarn install
+    $ npm start
+
 
 
 [solc.github]: https://github.com/ethereum/solc-js

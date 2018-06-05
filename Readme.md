@@ -1,7 +1,10 @@
 # Solidity api
 
 Simple api that allows to compile solidity contracts using [solc][solc.github] 
+
 It can be deployed to aws lambda using [apex up][apex up url]
+
+Try it [here][api url]
 
 # API
 
@@ -533,3 +536,4 @@ Response
 
 [solc.github]: https://github.com/ethereum/solc-js
 [apex up url]: https://up.docs.apex.sh/#introduction
+[api url]: https://4thq7kdi30.execute-api.eu-west-1.amazonaws.com/staging/

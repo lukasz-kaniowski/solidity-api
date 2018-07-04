@@ -4,7 +4,20 @@ Simple api that allows to compile solidity contracts using [solc][solc.github]
 
 It can be deployed to aws lambda using [apex up][apex up url]
 
-Try it [here][api url]
+It's deployed [here][api url]
+
+Try it in your console 
+
+```bash
+$ curl -X POST \
+  https://4thq7kdi30.execute-api.eu-west-1.amazonaws.com/staging/ \
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: beb30e7b-1aed-4bec-8341-a556a976bfb5' \
+  -d '{
+	"contract": "contract x {  }"
+}'
+```
 
 # API
 
